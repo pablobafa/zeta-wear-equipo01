@@ -3,3 +3,7 @@ __pycache__/
 *.docx
 *.pdf
 *.html
+
+# El dashboard del encargo 5 SI se versiona: sin el, Vercel sirve el README.
+# (la regla *.html de arriba ignoraba index.html en silencio)
+!index.html
